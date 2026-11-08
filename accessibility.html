@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Accessibility | MindBlitz</title><meta name="description" content="What works in MindBlitz and on this website, and the known limits.">
+<link rel="canonical" href="https://sergiupogor.github.io/mindblitz-app/accessibility.html">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#0f0b1e" media="(prefers-color-scheme: dark)"><meta name="theme-color" content="#fbfaff" media="(prefers-color-scheme: light)">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="icon" href="assets/favicon.png" type="image/png" sizes="64x64"><link rel="apple-touch-icon" href="assets/icon-192.png">
+<meta property="og:type" content="website"><meta property="og:site_name" content="MindBlitz"><meta property="og:title" content="Accessibility | MindBlitz">
+<meta property="og:description" content="What works in MindBlitz and on this website, and the known limits."><meta property="og:url" content="https://sergiupogor.github.io/mindblitz-app/accessibility.html"><meta property="og:image" content="https://sergiupogor.github.io/mindblitz-app/assets/og.png">
+<meta property="og:image:width" content="1024"><meta property="og:image:height" content="500"><meta property="og:image:alt" content="MindBlitz: brain games, IQ Challenge and a Daily Blitz">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="styles.css"><script src="theme.js"></script>
+</head>
+<body class="doc"><a class="skip" href="#main">Skip to content</a><div class="wrap"><header class="top"><a class="brand" href="./" aria-label="MindBlitz home"><span class="mark"><img src="assets/favicon.svg" alt="" width="36" height="36"></span>MindBlitz</a>
+<nav aria-label="Main"><a class="hide-sm" href="./#games">Games</a><a href="privacy.html">Privacy</a><a href="support.html">Help</a>
+<button type="button" class="theme" id="theme" aria-label="Switch theme" title="Switch theme"><svg class="ic moon" aria-hidden="true" focusable="false" viewBox="0 0 512 512"><path fill="currentColor" d="M256 0C114.6 0 0 114.6 0 256S114.6 512 256 512c68.8 0 131.3-27.2 177.3-71.4 7.3-7 9.4-17.9 5.3-27.1s-13.7-14.9-23.8-14.1c-4.9 .4-9.8 .6-14.8 .6-101.6 0-184-82.4-184-184 0-72.1 41.5-134.6 102.1-164.8 9.1-4.5 14.3-14.3 13.1-24.4S322.6 8.5 312.7 6.3C294.4 2.2 275.4 0 256 0z"/></svg><svg class="ic sun" aria-hidden="true" focusable="false" viewBox="0 0 576 512"><path fill="currentColor" d="M288-32c8.4 0 16.3 4.4 20.6 11.7L364.1 72.3 468.9 46c8.2-2 16.9 .4 22.8 6.3S500 67 498 75.1l-26.3 104.7 92.7 55.5c7.2 4.3 11.7 12.2 11.7 20.6s-4.4 16.3-11.7 20.6L471.7 332.1 498 436.8c2 8.2-.4 16.9-6.3 22.8S477 468 468.9 466l-104.7-26.3-55.5 92.7c-4.3 7.2-12.2 11.7-20.6 11.7s-16.3-4.4-20.6-11.7L211.9 439.7 107.2 466c-8.2 2-16.8-.4-22.8-6.3S76 445 78 436.8l26.2-104.7-92.6-55.5C4.4 272.2 0 264.4 0 256s4.4-16.3 11.7-20.6L104.3 179.9 78 75.1c-2-8.2 .3-16.8 6.3-22.8S99 44 107.2 46l104.7 26.2 55.5-92.6 1.8-2.6c4.5-5.7 11.4-9.1 18.8-9.1zm0 144a144 144 0 1 0 0 288 144 144 0 1 0 0-288zm0 240a96 96 0 1 1 0-192 96 96 0 1 1 0 192z"/></svg></button></nav></header>
+<div class="doc-grid"><aside class="doc-side"><p id="side-h">MindBlitz policies</p><nav aria-labelledby="side-h"><ul><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms of Use</a></li><li><a href="subscriptions.html">Subscriptions and Purchases</a></li><li><a href="data-deletion.html">Delete Your Data</a></li><li><a href="safety.html">Health and Safety</a></li><li><a href="accessibility.html" aria-current="page">Accessibility</a></li><li><a href="support.html">Help and Support</a></li><li><a href="imprint.html">Legal Notice</a></li><li><a href="licenses.html">Licenses</a></li></ul></nav></aside>
+<main id="main"><article class="legal">
+<h1>Accessibility</h1>
+<p class="eff">Last updated: 2026-11-07 · Version 1.1</p>
+<p>MEDIAPRONET SRL wants MindBlitz and its website to be usable by as many people as possible. This page explains what we do, what does not work well yet, and how to tell us about a problem.</p>
+<h2 id="the-website">The website</h2>
+<p>We aim to meet the Web Content Accessibility Guidelines (WCAG) 2.2 at level AA. We have checked the site ourselves; it has not been audited by an outside expert, so we do not claim full conformance. The website:</p>
+<ul><li>works with a keyboard, with a skip link and a visible focus outline</li><li>uses headings, landmarks and text descriptions for images, so that screen readers can follow it</li><li>has light and dark themes, follows your device's setting, and keeps text contrast high in both</li><li>lets you zoom to 200% and use narrow screens without scrolling sideways</li><li>respects the reduced motion setting of your device</li><li>loads no third-party scripts or fonts, so it stays fast on slow connections</li></ul>
+<p>Known limits on the website: the demo game is timed and asks you to judge colours, so it may not suit people who are colour blind or who need more time. It is optional, and nothing else on the site depends on it.</p>
+<h2 id="the-app">The app</h2>
+<p>The app follows Android's accessibility guidance where it can: buttons are large, text uses your phone's font size setting in most places, sound and vibration can be turned off, and nothing depends on sound alone.</p>
+<h2 id="comfort-settings-in-the-app">Comfort settings in the app</h2>
+<p>Open the Me tab and find the Comfort card. Each option is saved on your device and applies across the whole app:</p>
+<ul><li><strong>Colour-blind-safe colours.</strong> Right and wrong answers, and the rating colours, use blue and orange instead of green and red. A tick or a cross also appears after each answer, and rating tiles show a tick, a dash or a cross, so the meaning never depends on colour alone. The text you share uses blue, orange and black squares instead of green, yellow and red.</li><li><strong>Larger text.</strong> Makes all text in the app 15% bigger, on top of your phone's own font size.</li><li><strong>Reduced motion.</strong> Turns off screen shake, the drifting background and confetti (a gentle fade is shown instead), and replaces zooming screen changes with a simple fade. It also turns on by itself when Android's "Remove animations" setting is on.</li><li><strong>Left-handed Duel.</strong> Mirrors the answer buttons in Duel.</li><li><strong>Vibration.</strong> Off, light or strong.</li></ul>
+<h2 id="practice-and-tutorials">Practice and tutorials</h2>
+<ul><li><strong>Practice mode.</strong> In free play, every game can be played as Practice: there is no timer, no lives are lost, and nothing changes your score, rating, XP or coins. After a mistake you see a gentle "Try again", and many games explain the right answer and wait until you tap Next. Tap End to stop at any time.</li><li><strong>Tutorials.</strong> The first time you open a game, a short tutorial points at what to tap. You can skip it, and replay it with "Show tutorial" on the game's start screen.</li></ul>
+<h2 id="known-limits-in-the-app">Known limits in the app</h2>
+<ul><li>Outside Practice, most games are timed and rely on quick visual reactions, so they are hard to play with a screen reader such as TalkBack. Menus and settings work better than the games themselves.</li><li>Some games ask you to tell colours or shades apart, such as Color Clash and Shade Spotter. Colour-blind-safe colours do not change the colours these games are about. Many other games do not use colour.</li><li>Some games flash or move quickly, even with reduced motion on. See <a href="safety.html">Health and Safety</a>.</li><li>The app works in portrait orientation only.</li></ul>
+<p>We keep improving these points with each update.</p>
+<h2 id="tell-us-about-a-problem">Tell us about a problem</h2>
+<p>If you find something hard to use, or need information in another form, email <a href="mailto:mediapronetsrl@gmail.com">mediapronetsrl@gmail.com</a>. Please tell us the page or screen, what you tried to do, and the device or assistive technology you use. We will try to help and to fix the problem.</p>
+<h2 id="contact">Contact</h2>
+<p>MEDIAPRONET SRL<br>Company ID (IDNO): 1012600005500<br>Registered address: str. N. Dimo 1/2, of. 20, MD-2068, Chișinău (sector Rîșcani), Republic of Moldova<br>Email: <a href="mailto:mediapronetsrl@gmail.com">mediapronetsrl@gmail.com</a></p>
+</article></main></div></div>
+<footer class="site"><div class="wrap"><div class="cols">
+<div class="about"><a class="brand" href="./"><span class="mark"><img src="assets/favicon.svg" alt="" width="36" height="36"></span>MindBlitz</a>
+<p>Quick puzzle games for fun, made by MEDIAPRONET SRL, IDNO 1012600005500.</p>
+<p>str. N. Dimo 1/2, of. 20, MD-2068, Chișinău (sector Rîșcani), Republic of Moldova</p>
+<p><a href="mailto:mediapronetsrl@gmail.com">mediapronetsrl@gmail.com</a></p></div>
+<nav aria-label="Legal"><h2>Legal</h2><ul><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms of Use</a></li><li><a href="subscriptions.html">Subscriptions and Purchases</a></li><li><a href="data-deletion.html">Delete Your Data</a></li><li><a href="safety.html">Health and Safety</a></li><li><a href="accessibility.html">Accessibility</a></li><li><a href="imprint.html">Legal Notice</a></li><li><a href="licenses.html">Licenses</a></li><li><a href="legal.html">All policies</a></li></ul></nav>
+<nav aria-label="Help"><h2>Help</h2><ul><li><a href="support.html">Help and Support</a></li><li><a href="data-deletion.html">Delete your data</a></li><li><a href="subscriptions.html#how-to-cancel">Cancel a subscription</a></li><li><a href="accessibility.html">Accessibility</a></li><li><a href="mailto:mediapronetsrl@gmail.com">Email us</a></li></ul></nav>
+</div>
+<div class="fine"><p>© 2026 MEDIAPRONET SRL. MindBlitz is a game for entertainment, not a medical or clinical tool. The IQ estimate is for fun. Some games flash; see <a href="safety.html">Health and Safety</a>.</p>
+<p>Android and Google Play are trademarks of Google LLC. Icons by Font Awesome Free (CC BY 4.0), see <a href="licenses.html">Licenses</a>. No cookies, no tracking. Last updated 2026-11-07.</p></div>
+</div></footer>
+</body></html>

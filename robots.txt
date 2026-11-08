@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sergiupogor.github.io/mindblitz-app/sitemap.xml
